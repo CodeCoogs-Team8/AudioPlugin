@@ -9,14 +9,14 @@ set(INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/include/Equalizer")
 
 # Adds a plugin target (that's basically what the Projucer does).
 juce_add_plugin(${PROJECT_NAME}
-    COMPANY_NAME "Tonice Audio" # change this
+    COMPANY_NAME "Tonic Audio" # change this
     IS_SYNTH FALSE # may change this
     NEEDS_MIDI_INPUT FALSE # may change this
     NEEDS_MIDI_OUTPUT FALSE # may change this
     PLUGIN_MANUFACTURER_CODE MCMP # change this
-    PLUGIN_CODE TONAUD # change this
-    FORMATS Standalone VST3 # may change this
-    PRODUCT_NAME "Tonic Engine" # change this
+    PLUGIN_CODE TONA # change this
+    FORMATS Standalone VST3 AU # may change this
+    PRODUCT_NAME "Tonic" # change this
 )
 
 # Sets the source files of the plugin project.
